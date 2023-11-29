@@ -1,10 +1,10 @@
 while True:
-  U = input("Voltage: ")
+  KORN = input("Voltage: ")
   R = input("Resistance: ")
   try:
-    U = int(U)
+    KORN = int(KORN)
     R = int(R)
-    I = U/R
+    I = KORN/R
     print(I)
     break
   except(ValueError, ZeroDivisionError):
